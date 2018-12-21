@@ -26,7 +26,7 @@ void init()
   sys_thread_new("http thread", http_task, NULL, 0, 0);
   //http_init();
 
-  IP4_ADDR(&ip, 192, 168, 80, 161);
+  IP4_ADDR(&ip, 10, 211, 55, 3);
   IP4_ADDR(&mask, 255, 255, 255, 0);
   IP4_ADDR(&gw, 192, 168, 80, 201);
 
