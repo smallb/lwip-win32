@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="console">
+      <UniqueIdentifier>{5e579fba-dd39-43ed-9f74-a37262c33214}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="lwip">
+      <UniqueIdentifier>{a538398c-4529-4d92-ba7b-4f484c561455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lwip\api">
+      <UniqueIdentifier>{50926243-6d32-484c-a4f4-ae0bd3c1726b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lwip\core">
+      <UniqueIdentifier>{416a1537-7535-4bc3-b9a5-3aaaa13b6388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lwip\core\ipv4">
+      <UniqueIdentifier>{3fa87e53-ea55-4254-b131-8c021e08fd8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lwip\core\snmp">
+      <UniqueIdentifier>{8f6ab692-bfbd-48c5-9b23-ff5c56ff0149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lwip\netif">
+      <UniqueIdentifier>{281d694a-3370-45d0-926b-53f11b861ed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lwip\arch">
+      <UniqueIdentifier>{fd5000d8-7307-4126-8f66-fb838b172e94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pcap">
+      <UniqueIdentifier>{55f0471d-499e-40eb-93f8-d37c084c7348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{d7246fa4-95d3-4d4a-ac11-fd9e881cf368}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lwipwin32.c">
+      <Filter>console</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\api\api_lib.c">
+      <Filter>lwip\api</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\api\api_msg.c">
+      <Filter>lwip\api</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\api\err.c">
+      <Filter>lwip\api</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\api\netbuf.c">
+      <Filter>lwip\api</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\api\netdb.c">
+      <Filter>lwip\api</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\api\netifapi.c">
+      <Filter>lwip\api</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\api\sockets.c">
+      <Filter>lwip\api</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\api\tcpip.c">
+      <Filter>lwip\api</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\core\dhcp.c">
+      <Filter>lwip\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\core\dns.c">
+      <Filter>lwip\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\core\init.c">
+      <Filter>lwip\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\core\mem.c">
+      <Filter>lwip\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\core\memp.c">
+      <Filter>lwip\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\core\netif.c">
+      <Filter>lwip\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\core\pbuf.c">
+      <Filter>lwip\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\core\raw.c">
+      <Filter>lwip\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\core\stats.c">
+      <Filter>lwip\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\core\sys.c">
+      <Filter>lwip\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\core\tcp.c">
+      <Filter>lwip\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\core\tcp_in.c">
+      <Filter>lwip\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\core\tcp_out.c">
+      <Filter>lwip\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\core\udp.c">
+      <Filter>lwip\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\core\ipv4\autoip.c">
+      <Filter>lwip\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\core\ipv4\icmp.c">
+      <Filter>lwip\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\core\ipv4\igmp.c">
+      <Filter>lwip\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\core\ipv4\inet.c">
+      <Filter>lwip\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\core\ipv4\inet_chksum.c">
+      <Filter>lwip\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\core\ipv4\ip.c">
+      <Filter>lwip\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\core\ipv4\ip_addr.c">
+      <Filter>lwip\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\core\ipv4\ip_frag.c">
+      <Filter>lwip\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\core\snmp\asn1_dec.c">
+      <Filter>lwip\core\snmp</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\core\snmp\asn1_enc.c">
+      <Filter>lwip\core\snmp</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\core\snmp\mib2.c">
+      <Filter>lwip\core\snmp</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\core\snmp\mib_structs.c">
+      <Filter>lwip\core\snmp</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\core\snmp\msg_in.c">
+      <Filter>lwip\core\snmp</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\core\snmp\msg_out.c">
+      <Filter>lwip\core\snmp</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\netif\etharp.c">
+      <Filter>lwip\netif</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\netif\ethernetif.c">
+      <Filter>lwip\netif</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\netif\loopif.c">
+      <Filter>lwip\netif</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\arch\queue.c">
+      <Filter>lwip\arch</Filter>
+    </ClCompile>
+    <ClCompile Include="lwip\arch\sys_arch.c">
+      <Filter>lwip\arch</Filter>
+    </ClCompile>
+    <ClCompile Include="pcap\net_tap.c">
+      <Filter>pcap</Filter>
+    </ClCompile>
+    <ClCompile Include="app\http.c">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="app\http2.c">
+      <Filter>app</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="pcap\Lib\wpcap.lib" />
+  </ItemGroup>
+</Project>
